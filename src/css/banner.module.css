@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap'); 
+
+.banner{
+    margin-top: 1%;
+    padding-top: 95px;
+    position: relative;
+}
+
+.imagem{
+    width: 100%;
+}
+
+.texto{
+    position: absolute;
+    bottom: 10%; /* Distância do texto a partir do fundo */
+    right: 10%;
+    transform: translate(0, 0);
+    text-align: right;
+    
+}
+
+.titulo{
+    color: #292929;
+    font-size: 50px;
+    margin: 0;
+}
+
+.sub{
+    font-size: 15px;
+    color: #292929;
+    
+}
+
+.botao{
+    width: 40%;
+    padding: 5%;
+    background-color: #fff;
+    border: transparent;
+    border-radius: 5%;
+}

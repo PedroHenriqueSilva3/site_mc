@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.container{
+display: flex;
+width: 75%;
+margin: auto;
+/* background-color: aqua; */
+}
+
+.coluna{
+    text-align: left;
+    padding: 3%;
+}
+
+.titulo{
+    padding-bottom: 10%;
+}
+
+.linha{
+    padding-top: 8%;
+    color: #6f6f6f;
+}
+
+.container2{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.icon_container{
+    width: 20%;
+    /* background-color: aqua; */
+}
+
+.icon{
+    height: 60%;
+}
+
+.imagem{
+    /* background-color: aqua; */
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tag{
+    height: auto;
+    max-height: 75%; 
+    margin: 0;
+    padding: 0;
+}

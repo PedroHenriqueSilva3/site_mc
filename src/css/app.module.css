@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.barra{
+    background-color: #ffbc0d;
+    width: 100%;
+    height: 180px;
+    margin-bottom: 50px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 0.4fr 2fr 0.5fr;
+    grid-template-rows: 1fr;
+
+    background-color: #ffbc0d;
+    width: 75%;
+    height: 180px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    gap: 0;
+}
+
+.logo{
+    grid-column: 1; 
+    justify-items: center;
+}
+
+.img{
+    width: 90%;
+    height: 75%;
+}
+
+.texto{
+    grid-column: 2;
+    text-align: left;
+    margin-left: 6%;
+    color: #292929;
+}
+
+.titulo{
+    padding: 0;
+    margin: 0;
+}
+
+.paragrafo{
+    padding-top: 1%;
+    margin: 0;
+    width: 80%;
+}
+
+.botao{
+    width: 80%;
+    padding: 10%;
+    background-color: #fff;
+    border: transparent;
+    border-radius: 8%;
+}

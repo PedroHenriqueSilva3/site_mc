@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    height: 100px;
+    margin: auto;
+
+}
+
+hr{
+    width: 75%;
+}
+
+.foto{
+    height: 60%;
+}
+
+.texto{
+    display: flex;
+    gap: 20px;
+    color: #6f6f6f;
+    height: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: #6f6f6f;
+    height: 50px;
+    
+}
